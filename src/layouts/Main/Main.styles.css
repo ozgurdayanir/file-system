@@ -1,0 +1,48 @@
+#container {
+    background: lightgray;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#side-bar {
+    background: white;
+    width: 200px;
+    height: 100vh;
+}
+
+#content-host {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+#top-nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#search-host {
+    flex-grow: 1;
+    text-align: end;
+}
+
+#folder-name {
+    font-size: 24px;
+}
+
+#toolbar {
+    width: 100%;
+    background: white;
+    height: 50px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+#content {
+    width: 100%;
+    height: calc(100% - 150px);
+    background: white;
+    border-radius: 8px;
+}
